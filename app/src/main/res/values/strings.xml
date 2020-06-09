@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Notifications</string>
+
+    <string name="notification_with_imp_high">Imp High Notification</string>
+    <string name="notification_with_imp_low">Imp Low Notification</string>
+    <string name="notification_with_imp_min">Imp Min Notification</string>
+    <string name="notification_with_buttons">Notification with Button</string>
+
+    <string name="notification_with_image">Notification with Image</string>
+    <string name="notification_with_text">Notification with Expanded text</string>
+</resources>
