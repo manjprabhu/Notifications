@@ -1,10 +1,10 @@
 package com.btk.notifications;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 import com.btk.notifications.databinding.ActivityWelcomeBinding;
 
@@ -15,11 +15,11 @@ public class WelcomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        welcomeBinding = DataBindingUtil.setContentView(this,R.layout.activity_welcome);
+        welcomeBinding = DataBindingUtil.setContentView(this, R.layout.activity_welcome);
 
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
-        if(bundle!=null) {
+        if (bundle != null) {
             welcomeBinding.idtext.setText(bundle.getString("title"));
         }
     }

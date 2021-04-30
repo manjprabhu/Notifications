@@ -9,59 +9,59 @@
         tools:context=".MainActivity">
 
         <EditText
-            android:layout_marginTop="50dp"
             android:id="@+id/id_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="title"/>
+            android:layout_marginTop="50dp"
+            android:hint="title" />
 
         <EditText
             android:id="@+id/id_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="message"/>
+            android:hint="message" />
 
         <Button
             android:id="@+id/notification1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/notification_with_imp_high"
-            android:onClick="createNotificationOne"/>
+            android:onClick="createNotificationOne"
+            android:text="@string/notification_with_imp_high" />
 
         <Button
             android:id="@+id/notification2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/notification_with_imp_low"
-            android:onClick="createNotificationTwo"/>
+            android:onClick="createNotificationTwo"
+            android:text="@string/notification_with_imp_low" />
 
         <Button
             android:id="@+id/notification3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/notification_with_imp_low"
-            android:onClick="createNotificationThree"/>
+            android:onClick="createNotificationThree"
+            android:text="@string/notification_with_imp_low" />
 
         <Button
             android:id="@+id/notification4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/notification_with_buttons"
-            android:onClick="createNotificationwithButton"/>
+            android:onClick="createNotificationwithButton"
+            android:text="@string/notification_with_buttons" />
 
         <Button
             android:id="@+id/notification5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/notification_with_image"
-            android:onClick="createNotificationwithImage"/>
+            android:onClick="createNotificationwithImage"
+            android:text="@string/notification_with_image" />
 
         <Button
             android:id="@+id/notification6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/notification_with_text"
-            android:onClick="createNotificationwithBigtext"/>
+            android:onClick="createNotificationwithBigtext"
+            android:text="@string/notification_with_text" />
 
     </LinearLayout>
 </layout>
