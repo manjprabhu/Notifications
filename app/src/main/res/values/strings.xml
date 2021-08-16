@@ -8,4 +8,6 @@
 
     <string name="notification_with_image">Notification with Image</string>
     <string name="notification_with_text">Notification with Expanded text</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
 </resources>
